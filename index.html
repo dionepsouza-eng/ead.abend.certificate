@@ -327,18 +327,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
                             <ul>
                                     <li>
-                                        <a href="https://www.abendi.org.br/" target="_blank" class="website btn btn-link">
-                                            <i class="fa fa-globe"></i>
-                                        </a>
-                                    </li>
+    								<a href="https://www.abendi.org.br/" target="_blank" class="website btn btn-link">
+        								<img src="1.png" alt="Site Abendi" style="width:15px; height:auto;">
+    										</a>
+									</li>
                                     <li>
                                         <a href="tel:+55 (11) 5586-3199" target="_blank" class="mobile btn btn-link">
-                                            <i class="fa fa-phone"></i>
+                                            <img src="2.png" alt="Contato" style="width:15px; height:auto;">
                                         </a>
                                     </li>
                                     <li>
                                         <a href="mailto:abendi@abendi.org.br" target="_blank" class="mail btn btn-link">
-                                            <i class="fa fa-envelope"></i>
+                                            <img src="3.png" alt="E-mail" style="width:15px; height:auto;">
                                         </a>
                                     </li>
                             </ul>
@@ -350,31 +350,31 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <ul class="mb-0">
                                     <li>
                                         <a href="https://pt-br.facebook.com/abendioficial" target="_blank" class="facebook btn btn-link btn-rounded">
-                                            <i class="fa fa-facebook"></i>
+                                            <img src="4.png" alt="facebook" style="width:10px; height:auto;">
                                         </a>
                                     </li>
         
                                     <li>
                                         <a href="https://twitter.com/abendioficial" target="_blank" class="twitter btn btn-link btn-rounded">
-                                            <i class="fa fa-twitter"></i>
+                                            <img src="5.png" alt="twitter" style="width:15px; height:auto;">
                                         </a>
                                     </li>
         
-                                    <li>
+                                    <li><strong></strong>
                                         <a href="https://www.linkedin.com/company/abendioficial/" target="_blank" class="linkedin btn btn-link btn-rounded">
-                                            <i class="fa fa-linkedin"></i>
+                                            <img src="6.png" alt="linkedin" style="width:15px; height:auto;">
                                         </a>
                                     </li>
         
                                     <li>
                                         <a href="https://www.youtube.com/channel/UCtQgkp8InUUaWPjRCPo8eTw" target="_blank" class="youtube btn btn-link btn-rounded">
-                                            <i class="fa fa-youtube"></i>
+                                            <img src="7.png" alt="youtube" style="width:15px; height:auto;">
                                         </a>
                                     </li>
         
                                     <li>
                                         <a href="https://www.instagram.com/abendioficial/" target="_blank" class="instagram btn btn-link btn-rounded">
-                                            <i class="fa fa-instagram"></i>
+                                            <img src="8.png" alt="instagram" style="width:15px; height:auto;">
                                         </a>
                                     </li>
         
@@ -432,322 +432,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
         </footer>
         
-        <script>
-//<![CDATA[
-var require = {
-    baseUrl : 'https://ead.abendi.org.br/lib/requirejs.php/1757426394/',
-    // We only support AMD modules with an explicit define() statement.
-    enforceDefine: true,
-    skipDataMain: true,
-    waitSeconds : 0,
-
-    paths: {
-        jquery: 'https://ead.abendi.org.br/lib/javascript.php/1757426394/lib/jquery/jquery-3.7.1.min',
-        jqueryui: 'https://ead.abendi.org.br/lib/javascript.php/1757426394/lib/jquery/ui-1.13.2/jquery-ui.min',
-        jqueryprivate: 'https://ead.abendi.org.br/lib/javascript.php/1757426394/lib/requirejs/jquery-private'
-    },
-
-    // Custom jquery config map.
-    map: {
-      // '*' means all modules will get 'jqueryprivate'
-      // for their 'jquery' dependency.
-      '*': { jquery: 'jqueryprivate' },
-      // Stub module for 'process'. This is a workaround for a bug in MathJax (see MDL-60458).
-      '*': { process: 'core/first' },
-
-      // 'jquery-private' wants the real jQuery module
-      // though. If this line was not here, there would
-      // be an unresolvable cyclic dependency.
-      jqueryprivate: { jquery: 'jquery' }
-    }
-};
-
-//]]>
-</script>
-<script src="https://ead.abendi.org.br/lib/javascript.php/1757426394/lib/requirejs/require.min.js"></script>
-<script>
-//<![CDATA[
-M.util.js_pending("core/first");
-require(['core/first'], function() {
-require(['core/prefetch'])
-;
-M.util.js_pending('filter_mathjaxloader/loader'); require(['filter_mathjaxloader/loader'], function(amd) {amd.configure({"mathjaxconfig":"\nMathJax.Hub.Config({\n    config: [\"Accessible.js\", \"Safe.js\"],\n    errorSettings: { message: [\"!\"] },\n    skipStartupTypeset: true,\n    messageStyle: \"none\"\n});\n","lang":"pt-br"}); M.util.js_complete('filter_mathjaxloader/loader');});;
-require(["media_videojs/loader"], function(loader) {
-    loader.setUp('pt-BR');
-});;
-M.util.js_pending('tool_courserating/rating'); require(['tool_courserating/rating'], function(amd) {amd.init(1, false); M.util.js_complete('tool_courserating/rating');});;
-M.util.js_pending('local_learningtools/learningtoolsinfo'); require(['local_learningtools/learningtoolsinfo'], function(amd) {amd.init(false); M.util.js_complete('local_learningtools/learningtoolsinfo');});;
-M.util.js_pending('ltool_bookmarks/learningbookmarks'); require(['ltool_bookmarks/learningbookmarks'], function(amd) {amd.init(1, {"name":"Bookmarks","icon":"fa fa-bookmark","toolurl":"https:\/\/ead.abendi.org.br\/local\/learningtools\/ltool\/bookmarks\/bookmarks_info.php","id":"bookmarks","user":0,"course":"1","pagetype":"admin-tool-certificate-index","pagetitle":"Verificar certificados | Abendi","coursemodule":0,"contextlevel":10,"contextid":1,"sesskey":"fGXHmzR6nN","ltbookmark":true,"bookmarkhovername":"Add bookmark","pageurl":"https:\/\/ead.abendi.org.br\/admin\/tool\/certificate\/index.php?code=9352645558JV","pagebookmarks":false,"iconbackcolor":"#004e2d","iconcolor":"#dda000"}); M.util.js_complete('ltool_bookmarks/learningbookmarks');});;
-M.util.js_pending('ltool_note/learningnote'); require(['ltool_note/learningnote'], function(amd) {amd.init(1, {"course":"1","contextlevel":10,"pagetype":"admin-tool-certificate-index","pagetitle":"Verificar certificados | Abendi","pageurl":"https:\/\/ead.abendi.org.br\/admin\/tool\/certificate\/index.php?code=9352645558JV","user":0,"contextid":1,"title":"Verificar certificados | Abendi","heading":"Verificar certificados","sesskey":"fGXHmzR6nN"}); M.util.js_complete('ltool_note/learningnote');});;
-M.util.js_pending('ltool_schedule/schedule'); require(['ltool_schedule/schedule'], function(amd) {amd.init({"pagetitle":"Verificar certificados | Abendi","contextid":1,"user":0,"pageurl":"https:\/\/ead.abendi.org.br\/admin\/tool\/certificate\/index.php?code=9352645558JV","course":"1","cm":0}); M.util.js_complete('ltool_schedule/schedule');});;
-
-
-require(['jquery', 'tool_policy/jquery-eu-cookie-law-popup', 'tool_policy/policyactions'], function($, Popup, ActionsMod) {
-        // Initialise the guest popup.
-        $(document).ready(function() {
-            // Only show message if there is some policy related to guests.
-                // Get localised messages.
-                var textmessage = "Se continuar navegando neste site, você assume concordar com nossas políticas:" +
-                   "<ul>" +
-                   "<li>" +
-                   "<a href=\"https://ead.abendi.org.br/admin/tool/policy/view.php?versionid=2&amp;returnurl=https%3A%2F%2Fead.abendi.org.br%2Fadmin%2Ftool%2Fcertificate%2Findex.php%3Fcode%3D9352645558JV\" " +
-                   "   data-action=\"view-guest\" data-versionid=\"2\" data-behalfid=\"1\" >" +
-                   "Aviso de Privacidade" +
-                   "</a>" +
-                   "</li>" +
-                   "" +
-                   "</ul>";
-                var continuemessage = "Continuar";
-
-                // Initialize popup.
-                $(document.body).addClass('eupopup');
-                if ($(".eupopup").length > 0) {
-                    $(document).euCookieLawPopup().init({
-                        popupPosition: 'bottom',
-                        popupTitle: '',
-                        popupText: textmessage,
-                        buttonContinueTitle: continuemessage,
-                        buttonLearnmoreTitle: '',
-                        compactStyle: true,
-                    });
-                }
-
-            // Initialise the JS for the modal window which displays the policy versions.
-            ActionsMod.init('[data-action="view-guest"]');
-        });
-});
-
-;
-
-    require(['theme_moove/accessibilitybar'], function(AccessibilityBar) {
-        AccessibilityBar.init();
-    });
-;
-
-    require(['core/moremenu'], function(moremenu) {
-        moremenu(document.querySelector('#moremenu-69504abfcfa07-navbar-nav'));
-    });
-;
-
-    require(['core/usermenu', 'theme_moove/accessibilitysettings'], function(UserMenu, AccessibilitySettings) {
-        UserMenu.init();
-
-        AccessibilitySettings.init();
-    });
-;
-
-require(['theme_boost/drawers']);
-;
-
-    require(['theme_boost/footer-popover'], function(FooterPopover) {
-        FooterPopover.init();
-    });
-;
-
-M.util.js_pending('theme_boost/loader');
-require(['theme_boost/loader', 'theme_boost/drawer'], function(Loader, Drawer) {
-    Drawer.init();
-    M.util.js_complete('theme_boost/loader');
-});
-;
-M.util.js_pending('core_form/changechecker'); require(['core_form/changechecker'], function(amd) {amd.watchFormById("mform1_TEwAXBX5H0ZRp7I"); M.util.js_complete('core_form/changechecker');});;
-
-require(['theme_boost/form-display-errors'], function(module) {
-    module.enhance("id_code");
-});
-;
-
-require(['theme_boost/form-display-errors'], function(module) {
-    module.enhance("id_verify");
-});
-;
-
-        require(['core_form/submit'], function(Submit) {
-            Submit.init("id_verify");
-        });
-;
-
-
-require([
-    "core_form/events",
-    "jquery",
-], function(
-    FormEvents,
-    $
-) {
-
-    function qf_errorHandler(element, _qfMsg, escapedName) {
-        const event = FormEvents.notifyFieldValidationFailure(element, _qfMsg);
-        if (event.defaultPrevented) {
-            return _qfMsg == '';
-        } else {
-            // Legacy mforms.
-            var div = element.parentNode;
-
-            if ((div == undefined) || (element.name == undefined)) {
-                // No checking can be done for undefined elements so let server handle it.
-                return true;
-            }
-
-            if (_qfMsg != '') {
-                var errorSpan = document.getElementById('id_error_' + escapedName);
-                if (!errorSpan) {
-                    errorSpan = document.createElement("span");
-                    errorSpan.id = 'id_error_' + escapedName;
-                    errorSpan.className = "error";
-                    element.parentNode.insertBefore(errorSpan, element.parentNode.firstChild);
-                    document.getElementById(errorSpan.id).setAttribute('TabIndex', '0');
-                    document.getElementById(errorSpan.id).focus();
-                }
-
-                while (errorSpan.firstChild) {
-                    errorSpan.removeChild(errorSpan.firstChild);
-                }
-
-                errorSpan.appendChild(document.createTextNode(_qfMsg.substring(3)));
-
-                if (div.className.substr(div.className.length - 6, 6) != " error"
-                        && div.className != "error") {
-                    div.className += " error";
-                    linebreak = document.createElement("br");
-                    linebreak.className = "error";
-                    linebreak.id = 'id_error_break_' + escapedName;
-                    errorSpan.parentNode.insertBefore(linebreak, errorSpan.nextSibling);
-                }
-
-                return false;
-            } else {
-                var errorSpan = document.getElementById('id_error_' + escapedName);
-                if (errorSpan) {
-                    errorSpan.parentNode.removeChild(errorSpan);
-                }
-                var linebreak = document.getElementById('id_error_break_' + escapedName);
-                if (linebreak) {
-                    linebreak.parentNode.removeChild(linebreak);
-                }
-
-                if (div.className.substr(div.className.length - 6, 6) == " error") {
-                    div.className = div.className.substr(0, div.className.length - 6);
-                } else if (div.className == "error") {
-                    div.className = "";
-                }
-
-                return true;
-            } // End if.
-        } // End if.
-    } // End function.
-    
-    function validate_tool_certificate_verify_certificate_form_code(element, escapedName) {
-      if (undefined == element) {
-         //required element was not found, then let form be submitted without client side validation
-         return true;
-      }
-      var value = '';
-      var errFlag = new Array();
-      var _qfGroups = {};
-      var _qfMsg = '';
-      var frm = element.parentNode;
-      if ((undefined != element.name) && (frm != undefined)) {
-          while (frm && frm.nodeName.toUpperCase() != "FORM") {
-            frm = frm.parentNode;
-          }
-          value = frm.elements['code'].value;
-  if (value == '' && !errFlag['code']) {
-    errFlag['code'] = true;
-    _qfMsg = _qfMsg + '\n - Inserir um valor.';
-  }
-
-          return qf_errorHandler(element, _qfMsg, escapedName);
-      } else {
-        //element name should be defined else error msg will not be displayed.
-        return true;
-      }
-    }
-
-    document.getElementById('id_code').addEventListener('blur', function(ev) {
-        validate_tool_certificate_verify_certificate_form_code(ev.target, 'code')
-    });
-    document.getElementById('id_code').addEventListener('change', function(ev) {
-        validate_tool_certificate_verify_certificate_form_code(ev.target, 'code')
-    });
-
-
-    function validate_tool_certificate_verify_certificate_form() {
-      if (skipClientValidation) {
-         return true;
-      }
-      var ret = true;
-
-      var frm = document.getElementById('mform1_TEwAXBX5H0ZRp7I')
-      var first_focus = false;
-    
-      ret = validate_tool_certificate_verify_certificate_form_code(frm.elements['code'], 'code') && ret;
-      if (!ret && !first_focus) {
-        first_focus = true;
-        const element = document.getElementById("id_error_code");
-        if (element) {
-          FormEvents.notifyFormError(element);
-          element.focus();
-        }
-      }
-;
-      return ret;
-    }
-
-    var form = document.getElementById('mform1_TEwAXBX5H0ZRp7I').closest('form');
-    form.addEventListener(FormEvents.eventTypes.formSubmittedByJavascript, () => {
-        try {
-            var myValidator = validate_tool_certificate_verify_certificate_form;
-        } catch(e) {
-            return;
-        }
-        if (myValidator) {
-            myValidator();
-        }
-    });
-
-    document.getElementById('mform1_TEwAXBX5H0ZRp7I').addEventListener('submit', function(ev) {
-        try {
-            var myValidator = validate_tool_certificate_verify_certificate_form;
-        } catch(e) {
-            return true;
-        }
-        if (typeof window.tinyMCE !== 'undefined') {
-            window.tinyMCE.triggerSave();
-        }
-        if (!myValidator()) {
-            ev.preventDefault();
-        }
-    });
-
-});
-;
-M.util.js_pending('core/notification'); require(['core/notification'], function(amd) {amd.init(1, []); M.util.js_complete('core/notification');});;
-M.util.js_pending('core/log'); require(['core/log'], function(amd) {amd.setConfig({"level":"warn"}); M.util.js_complete('core/log');});;
-M.util.js_pending('core/page_global'); require(['core/page_global'], function(amd) {amd.init(); M.util.js_complete('core/page_global');});;
-M.util.js_pending('core/utility'); require(['core/utility'], function(amd) {M.util.js_complete('core/utility');});
-    M.util.js_complete("core/first");
-});
-//]]>
-</script>
-<script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js?delayStartupUntil=configured"></script>
-<script>
-//<![CDATA[
-M.str = {"moodle":{"lastmodified":"\u00daltima atualiza\u00e7\u00e3o","name":"Nome","error":"Erro","info":"Informa\u00e7\u00e3o","yes":"Sim","no":"N\u00e3o","cancel":"Cancelar","confirm":"Confirmar","areyousure":"Voc\u00ea tem certeza?","closebuttontitle":"Fechar","unknownerror":"Erro desconhecido","file":"Arquivo","url":"URL","collapseall":"Contrair tudo","expandall":"Expandir tudo"},"repository":{"type":"Tipo","size":"Tamanho","invalidjson":"palavra JSON inv\u00e1lida","nofilesattached":"Nenhum arquivo anexado","filepicker":"Seletor de arquivos","logout":"Sair","nofilesavailable":"Nenhum arquivo dispon\u00edvel","norepositoriesavailable":"Desculpe, nenhum dos seus reposit\u00f3rios atuais pode retornar arquivos no formato solicitado.","fileexistsdialogheader":"Arquivo existe","fileexistsdialog_editor":"Um arquivo com este nome j\u00e1 foi anexado ao texto que voc\u00ea est\u00e1 editando.","fileexistsdialog_filemanager":"Um arquivo com este nome j\u00e1 foi anexado","renameto":"Renomear para \"{$a}\"","referencesexist":"Existem {$a} links para esse arquivo","select":"Selecione"},"admin":{"confirmdeletecomments":"Voc\u00ea tem certeza que deseja excluir os coment\u00e1rios selecionado(s)?","confirmation":"Confirma\u00e7\u00e3o"},"debug":{"debuginfo":"Informa\u00e7\u00f5es de depura\u00e7\u00e3o","line":"Linha","stacktrace":"Rastreamento de pilha"},"langconfig":{"labelsep":":&nbsp;"}};
-//]]>
-</script>
-<script>
-//<![CDATA[
-var ltools = {"disappertimenotify":"0"};
-//]]>
-</script>
-<script>
-//<![CDATA[
-(function() {M.util.help_popups.setup(Y);
- M.util.js_pending('random69504abfd1b712'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random69504abfd1b712'); });
-})();
-//]]>
-</script>
+       
 
         
     </div>
